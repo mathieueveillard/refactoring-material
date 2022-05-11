@@ -1,0 +1,49 @@
+body {
+  padding: 20px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#gridContainer {
+  padding-bottom: 10px;
+}
+
+table {
+  background-color: lightgray;
+  border-spacing: 0;
+}
+
+td {
+  border: 1px solid grey;
+  width: 10px;
+  height: 10px;
+}
+
+span {
+  color: #222;
+}
+
+#start,
+#clear,
+#random {
+  padding: .75em;
+  border-radius: 5px;
+  border: none;
+  margin-right: .25em !important;
+
+}
+
+td.dead {
+  background-color: transparent;
+}
+
+td.alive {
+  background-color: darkred;
+}
+
+#gridContainer > table:nth-child(2){
+  display: none;
+}
